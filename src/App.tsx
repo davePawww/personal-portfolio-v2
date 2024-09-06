@@ -100,29 +100,32 @@ function App() {
 						open for relocation w/ visa sponsorship and assistance.
 					</p>
 				</section>
+				<section>
+					<h4>
+						<i>Connect</i>
+					</h4>
+					<p>
+						Reach me at{" "}
+						<a
+							className='underline'
+							href='mailto:paurillo.dave@gmail.com'
+						>
+							paurillo.dave@gmail.com
+						</a>{" "}
+						or my{" "}
+						<a
+							className='underline'
+							href='https://www.linkedin.com/in/jaean-leo-david-paurillo-26a40b100/'
+							target='_blank'
+							rel='noopener noreferrer'
+						>
+							LinkedIn
+						</a>
+						.
+					</p>
+				</section>
 			</body>
 			<footer>
-				<h4>Contact</h4>
-				<p>
-					Reach me at{" "}
-					<a
-						className='underline'
-						href='mailto:paurillo.dave@gmail.com'
-					>
-						paurillo.dave@gmail.com
-					</a>{" "}
-					or my{" "}
-					<a
-						className='underline'
-						href='https://www.linkedin.com/in/jaean-leo-david-paurillo-26a40b100/'
-						target='_blank'
-						rel='noopener noreferrer'
-					>
-						LinkedIn
-					</a>
-					.
-				</p>
-
 				<div className='footer'>
 					<p>
 						<i>Curiousity. Obsession.</i>
