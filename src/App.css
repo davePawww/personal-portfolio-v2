@@ -1,0 +1,44 @@
+#root {
+	max-width: 1280px;
+	margin: 2rem 25rem 0 25rem;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+.build {
+	display: flex;
+	justify-content: space-around;
+	margin: 2rem;
+	gap: 3rem;
+}
+
+.building {
+	flex: 1;
+}
+
+.projects {
+	flex: 1;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 3rem;
+	bottom: 0;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.project-text {
+	margin-top: 0;
+	color: #868a8f;
+}
+
+.footer {
+	color: #868a8f;
+}
