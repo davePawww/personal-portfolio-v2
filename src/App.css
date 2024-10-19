@@ -1,42 +1,88 @@
 #root {
-	max-width: 720px;
+	max-width: 830px;
 	margin: 2rem auto 0 auto;
 }
 
-body {
+header {
+	margin-top: 6rem;
+}
+
+.container {
 	display: flex;
 	flex-direction: column;
+	margin: 0 1.5rem;
 }
 
-.build {
+h3 {
+	font-size: 20px;
+	letter-spacing: -0.09rem;
+}
+
+h4 {
+	font-size: 18px;
+	letter-spacing: -0.06rem;
+	margin: 0;
+}
+
+p {
+	font-size: 16px;
+	color: #aaaeb4;
+	line-height: 1.4rem;
+}
+
+.title-description {
+	color: #868a8f;
+	margin: 0;
+	font-size: 14px;
+}
+
+.creations,
+.now,
+.connect {
+	margin: 2.5rem 0 0 0;
+}
+
+.creations-list {
+	padding: 15px;
 	display: flex;
-	justify-content: space-around;
-	margin: 2rem;
-	gap: 3rem;
+	flex-wrap: wrap;
+	width: 100%;
 }
 
-.building {
-	flex: 1;
+.creation-item {
+	min-width: 50%;
 }
 
-.projects {
-	flex: 1;
+.ci-container {
+	padding: 1rem;
 }
 
 .footer {
 	display: flex;
 	justify-content: space-between;
 	margin-top: 3rem;
-	/* bottom: 0; */
 }
 
 .underline {
 	text-decoration: underline;
+	font-weight: 500;
 }
 
 .project-text {
-	margin-top: 0;
 	color: #868a8f;
+	margin: 0;
+	font-size: 14px;
+}
+
+.description {
+	padding-top: 5px;
+	margin: 0;
+}
+
+.looking {
+	padding-top: 1.5rem;
+	font-weight: 500;
+	text-decoration: underline;
 }
 
 .footer {

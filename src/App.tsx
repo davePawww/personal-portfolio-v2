@@ -7,7 +7,7 @@ function App() {
 			<header>
 				<h3>Dave Paurillo</h3>
 			</header>
-			<body>
+			<div className='container'>
 				<section>
 					<p>
 						<i>
@@ -16,18 +16,16 @@ function App() {
 							with the help of animations.
 						</i>
 					</p>
-				</section>
 
-				<section>
 					<p>
-						In the past, I've worked as a Full Stack Engineer at{" "}
+						In the past, I've worked as a Full Stack Developer at{" "}
 						<a
 							className='underline'
 							href='https://www.oneaston.com/'
 							target='_blank'
 							rel='noopener noreferrer'
 						>
-							OneAston(CBTW)
+							<i>OneAston(CBTW)</i>
 						</a>{" "}
 						where I was able to create a strong foundation in web
 						development both frontend and backend.
@@ -42,69 +40,92 @@ function App() {
 							target='_blank'
 							rel='noopener noreferrer'
 						>
-							Accenture
+							<i>Accenture</i>
 						</a>{" "}
 						as a Software Engineer. I was deployed in Google @
 						Android Enterprise where I started to create an impact
-						by creating in-house apps that helped my team be
-						efficient in our day to day tasks. In Accenture, I was
-						able to hone my leadership skills as I was tasked to
-						handle a small team.
+						by creating in-house web applications that helped my
+						team be efficient in our day to day tasks. In Accenture,
+						I was able to hone my leadership skills as I was tasked
+						to handle a small team.
 					</p>
 				</section>
 
-				<section className='build'>
-					<div className='building'>
-						<h4>In development</h4>
-						<Link className='underline' to='/craft'>
-							Craft
-						</Link>
-						<p className='project-text'>
-							Some of the things I am building to improve my
-							skills.
+				<section className='creations'>
+					<div>
+						<h4>
+							<i>Creations</i>
+						</h4>
+						<p className='title-description'>
+							<i>
+								Things I built on my spare time. Sample projects
+								and some live projects.
+							</i>
 						</p>
 					</div>
 
-					<div className='projects'>
-						<h4>Projects</h4>
-						<div>
-							<a
-								className='underline'
-								href='https://github.com/DavePaurillo/CRBRS-Trading'
-								target='_blank'
-								rel='noopener noreferrer'
-							>
-								Cerberus
-							</a>
-							<p className='project-text'>
-								LMS system for traders in the Cerberus
-								community.
-							</p>
-						</div>
+					<div className='creations-list'>
+						<section className='creation-item'>
+							<div className='ci-container'>
+								<Link className='underline' to='/nextjs'>
+									Next.js
+								</Link>
+								<p className='project-text'>
+									Next.JS projects storage.
+								</p>
+							</div>
+						</section>
+
+						<section className='creation-item'>
+							<div className='ci-container'>
+								<Link className='underline' to='/reactjs'>
+									React
+								</Link>
+								<p className='project-text'>
+									ReactJS projects storage.
+								</p>
+							</div>
+						</section>
+
+						<section className='creation-item'>
+							<div className='ci-container'>
+								<Link className='underline' to='/animations'>
+									Animations
+								</Link>
+								<p className='project-text'>
+									Greensock Animation platform storage.
+								</p>
+							</div>
+						</section>
 					</div>
 				</section>
 
-				<section>
-					<h4>Now</h4>
-					<p>
+				<section className='now'>
+					<h4>
+						<i>Now</i>
+					</h4>
+					<p className='description'>
 						I left Accenture after 5 years to focus on my health and
-						to regain myself. As I continue my lifelong journey as a
-						developer, all I want to do is build websites. I want to
-						be able to always give my 100% because it gives me great
+						to be able to deliver and give my 100% again in my
+						craft. As I continue my lifelong journey as a developer,
+						all I want to do is build websites. It gives me great
 						joy and pleasure when I see people using and admiring my
 						work.
 					</p>
 
-					<p>
-						I'm currently looking for a full remote work. I'm also
-						open for relocation w/ visa sponsorship and assistance.
+					<p className='description looking'>
+						<i>
+							I'm currently looking for a full-time remote work.
+							I'm also open for relocation w/ visa sponsorship and
+							assistance(Hybrid).
+						</i>
 					</p>
 				</section>
-				<section>
+				<section className='connect'>
 					<h4>
 						<i>Connect</i>
 					</h4>
-					<p>
+					<p className='description'>
 						Reach me at{" "}
 						<a
 							className='underline'
@@ -124,7 +145,7 @@ function App() {
 						.
 					</p>
 				</section>
-			</body>
+			</div>
 			<footer>
 				<div className='footer'>
 					<p>

@@ -3,7 +3,9 @@ import { createRoot } from "react-dom/client";
 import App from "./App.tsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Craft from "./Craft.tsx";
+import Nextjs from "./Nextjs.tsx";
+import Reactjs from "./Reactjs.tsx";
+import Animations from "./Animations.tsx";
 
 const router = createBrowserRouter([
 	{
@@ -12,8 +14,18 @@ const router = createBrowserRouter([
 		errorElement: <div>404 Not found</div>,
 	},
 	{
-		path: "/craft",
-		element: <Craft />,
+		path: "/nextjs",
+		element: <Nextjs />,
+		errorElement: <div>404 Not found</div>,
+	},
+	{
+		path: "/reactjs",
+		element: <Reactjs />,
+		errorElement: <div>404 Not found</div>,
+	},
+	{
+		path: "/animations",
+		element: <Animations />,
 		errorElement: <div>404 Not found</div>,
 	},
 ]);
