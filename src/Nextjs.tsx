@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./NextJS.css";
+import "./Nextjs.css";
 import { BsArrowLeft } from "react-icons/bs";
 
 const NextJS = () => {
