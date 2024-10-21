@@ -19,7 +19,7 @@ h3 {
 }
 
 h4 {
-	font-size: 18px;
+	font-size: 17px;
 	letter-spacing: -0.06rem;
 	margin: 0;
 }
@@ -47,10 +47,15 @@ p {
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
+	gap: 1.5rem;
 }
 
 .creation-item {
-	min-width: 50%;
+	max-width: 45%;
+	width: 100%;
+	height: auto;
+	border: 2px solid rgb(39, 38, 38);
+	border-radius: 0.5rem;
 }
 
 .ci-container {
@@ -87,4 +92,59 @@ p {
 
 .footer {
 	color: #868a8f;
+}
+
+/* sub pages */
+
+.back {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+}
+
+.back-text {
+	margin-left: 1rem;
+	font-size: 16px;
+	font-weight: 600;
+	color: white;
+}
+
+.arrow-back {
+	color: white;
+}
+
+.title-container {
+	padding-bottom: 0.5rem;
+}
+
+.projects-list {
+	padding: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	gap: 1.5rem;
+}
+
+.project-item {
+	max-width: 45%;
+	width: 100%;
+	height: auto;
+	border: 2px solid rgb(39, 38, 38);
+	border-radius: 0.5rem;
+}
+
+.njs-container {
+	padding: 1rem;
+}
+
+.rjs-container {
+	padding: 1rem;
+}
+
+.animations-container {
+	padding: 1rem;
+}
+
+.craft-wrapper {
+	padding: 1rem 2rem;
 }

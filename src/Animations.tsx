@@ -1,85 +1,54 @@
 import { Link } from "react-router-dom";
-import "./Animations.css";
 import { BsArrowLeft } from "react-icons/bs";
 
 const Animations = () => {
 	return (
 		<>
 			<Link className='back' to='/'>
-				<BsArrowLeft /> <h5 className='back-text'>Back</h5>
+				<BsArrowLeft className='arrow-back' />{" "}
+				<h5 className='back-text'>
+					<i>Index</i>
+				</h5>
 			</Link>
 
 			<div className='craft-wrapper'>
-				<h4>Craft</h4>
-				<div className='craft-projects'>
-					<section>
-						<h4>Next.js</h4>
-						<div>
-							<a
-								className='underline'
-								href='https://github.com/DavePaurillo/CRBRS-Trading'
-								target='_blank'
-								rel='noopener noreferrer'
-							>
-								Cerberus
-							</a>
+				<div className='title-container'>
+					<h4>Animations</h4>
+					<p className='project-text'>
+						Showcase of the Animations projects I've built.
+					</p>
+				</div>
+
+				<div className='projects-list'>
+					<section className='project-item'>
+						<div className='animations-container'>
+							<Link className='underline' to='/nextjs'>
+								Cerberus Trading
+							</Link>
 							<p className='project-text'>
-								LMS system for traders in the Cerberus
-								community.
+								A Landing page and LMS for a Filipino Trading
+								Community.
 							</p>
 						</div>
 					</section>
 
-					<section>
-						<h4>React</h4>
-						<div>
-							<a
-								className='underline'
-								href='https://github.com/DavePaurillo/CRBRS-Trading'
-								target='_blank'
-								rel='noopener noreferrer'
-							>
-								Cerberus
-							</a>
-							<p className='project-text'>
-								LMS system for traders in the Cerberus
-								community.
-							</p>
+					<section className='project-item'>
+						<div className='animations-container'>
+							<Link className='underline' to='/nextjs'>
+								Rock, Paper, Scissors, Lizard, Spock
+							</Link>
+							<p className='project-text'>Game made for fun.</p>
 						</div>
 					</section>
 
-					<section>
-						<h4>Css</h4>
-						<div>
-							<a
-								className='underline'
-								href='https://github.com/DavePaurillo/CRBRS-Trading'
-								target='_blank'
-								rel='noopener noreferrer'
-							>
-								Cerberus
-							</a>
+					<section className='project-item'>
+						<div className='animations-container'>
+							<Link className='underline' to='/nextjs'>
+								IP Address Tracking
+							</Link>
 							<p className='project-text'>
-								LMS system for traders in the Cerberus
-								community.
-							</p>
-						</div>
-					</section>
-
-					<section>
-						<h4>Animations</h4>
-						<div>
-							<a
-								className='underline'
-								href='https://github.com/DavePaurillo/CRBRS-Trading'
-								target='_blank'
-								rel='noopener noreferrer'
-							>
-								Cerberus
-							</a>
-							<p className='project-text'>
-								LMS system for traders in the Cerberus
-								community.
+								Trying to learn more on how to track IP
+								addresses.
 							</p>
 						</div>
 					</section>

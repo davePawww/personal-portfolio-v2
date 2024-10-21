@@ -53,9 +53,7 @@ function App() {
 
 				<section className='creations'>
 					<div>
-						<h4>
-							<i>Creations</i>
-						</h4>
+						<h4>Creations</h4>
 						<p className='title-description'>
 							<i>
 								Things I built on my spare time. Sample projects
@@ -101,9 +99,7 @@ function App() {
 				</section>
 
 				<section className='now'>
-					<h4>
-						<i>Now</i>
-					</h4>
+					<h4>Now</h4>
 					<p className='description'>
 						I left Accenture after 5 years to focus on my health and
 						to be able to deliver and give my 100% again in my
@@ -115,16 +111,15 @@ function App() {
 
 					<p className='description looking'>
 						<i>
-							I'm currently looking for a full-time remote work.
-							I'm also open for relocation w/ visa sponsorship and
+							I'm currently looking for a full-time remote work,
+							Front-end developer or a Software Engineer role. I'm
+							also open for relocation w/ visa sponsorship and
 							assistance(Hybrid).
 						</i>
 					</p>
 				</section>
 				<section className='connect'>
-					<h4>
-						<i>Connect</i>
-					</h4>
+					<h4>Connect</h4>
 					<p className='description'>
 						Reach me at{" "}
 						<a
