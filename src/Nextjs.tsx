@@ -1,7 +1,22 @@
 import { Link } from "react-router-dom";
 import { BsArrowLeft } from "react-icons/bs";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
 
 const NextJS = () => {
+	useGSAP(() => {
+		gsap.set([".back", ".title-container", ".projects-list"], {
+			opacity: 0,
+		});
+
+		gsap.to([".back", ".title-container", ".projects-list"], {
+			ease: "power4.in",
+			duration: 0.6,
+			opacity: 1,
+			stagger: 0.1,
+		});
+	});
+
 	return (
 		<>
 			<Link className='back' to='/'>

@@ -1,14 +1,39 @@
 import "./App.css";
 import { Link } from "react-router-dom";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
 
 function App() {
+	useGSAP(() => {
+		gsap.set(
+			[".name", ".main", ".creations", ".now", ".connect", ".footer"],
+			{
+				opacity: 0,
+			}
+		);
+
+		gsap.set([".back", ".title-container", ".projects-list"], {
+			opacity: 0,
+		});
+
+		gsap.to(
+			[".name", ".main", ".creations", ".now", ".connect", ".footer"],
+			{
+				ease: "power4.in",
+				duration: 0.6,
+				opacity: 1,
+				stagger: 0.1,
+			}
+		);
+	});
+
 	return (
 		<main>
-			<header>
+			<header className='name'>
 				<h3>Dave Paurillo</h3>
 			</header>
 			<div className='container'>
-				<section>
+				<section className='main'>
 					<p>
 						<i>
 							Turning designs into functional and visually
