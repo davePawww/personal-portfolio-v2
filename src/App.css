@@ -94,6 +94,10 @@ p {
 	color: #868a8f;
 }
 
+.footer p {
+	opacity: 0.65;
+}
+
 /* sub pages */
 
 .back {
