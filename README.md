@@ -4,7 +4,7 @@
   <p align="center">
     Simple. Readable. Elegant. All the things you need to know about my technical experiences.
     <br />
-    ![Screenshot 2025-01-18 at 2 17 20 PM](https://github.com/user-attachments/assets/04165756-53d8-4887-81f6-8519e584e247)
+    [![Product SS][product-screenshot]](https://paurillo-dave.vercel.app)
     <br />
     <a href="https://paurillo-dave.vercel.app/">View Live Project</a>
   </p>
@@ -42,7 +42,7 @@ Email: paurillo.dave@gmail.com
 [license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: https://github.com/user-attachments/assets/04165756-53d8-4887-81f6-8519e584e247
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
