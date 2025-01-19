@@ -4,11 +4,10 @@
   <p align="center">
     Simple. Readable. Elegant. All the things you need to know about my technical experiences.
     <br />
-    [![Product SS][product-screenshot]](https://paurillo-dave.vercel.app)
-    <br />
-    <a href="https://paurillo-dave.vercel.app/">View Live Project</a>
   </p>
 </div>
+
+![Personal Portfolio][product-screenshot]
 
 ### Built With
 
